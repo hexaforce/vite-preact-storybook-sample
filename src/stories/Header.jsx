@@ -1,5 +1,4 @@
-/** @jsx h */
-import { h, Fragment } from "preact";
+import { Fragment } from "preact";
 import PropTypes from "prop-types";
 
 import { Button } from "./Button";
