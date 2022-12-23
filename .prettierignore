@@ -1,0 +1,7 @@
+vite.config.js
+
+amplify
+build
+src/graphql
+aws-exports.js
+API.ts

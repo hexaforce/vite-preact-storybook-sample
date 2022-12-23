@@ -8,10 +8,12 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,json,html}\""
   },
   "dependencies": {
-    "preact": "^10.11.3"
+    "preact": "^10.11.3",
+    "preact-router": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.7",
@@ -24,8 +26,10 @@
     "@storybook/builder-vite": "^0.2.6",
     "@storybook/preact": "^6.5.15",
     "@storybook/testing-library": "^0.0.13",
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "babel-loader": "^8.3.0",
     "core-js": "^3.26.1",
+    "prettier": "^2.8.1",
     "vite": "^4.0.0"
   }
 }

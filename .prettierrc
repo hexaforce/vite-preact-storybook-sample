@@ -1,0 +1,19 @@
+{
+  "printWidth": 1024,
+  "tabWidth": 2,
+  "useTabs": false,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "semi": false,
+  "importOrder": [
+    "^preac(.*)$",
+    "^@mui/material/(.*)$",
+    "^@mui/material/styles$",
+    "^@mui/icons-material/(.*)$",
+    "^@codemirror/(.*)$",
+    "^@/(.*)$"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true
+}
