@@ -1,5 +1,13 @@
-import { App } from './app'
-import './index.css'
-import { render } from 'preact'
+import { h, render } from 'preact'
+import Router from 'preact-router'
+import ArticleList from '@/contents/ArticleList'
 
-render(<App />, document.getElementById('app'))
+const Main = () => (
+  <Router>
+    <ArticleList path='/' />
+    <ArticleList path='/about' />
+    <ArticleList path='/search/:query/:advanced?' />
+  </Router>
+)
+
+render(<Main />, document.body)
