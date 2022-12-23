@@ -12,6 +12,11 @@
     "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,json,html}\""
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.113",
+    "@mui/material": "^5.11.1",
     "preact": "^10.11.3",
     "preact-router": "^4.1.0"
   },
